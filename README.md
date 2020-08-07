@@ -7,10 +7,10 @@ An ATM option strategy.
 An automatic trading program using dalayed synthetic future strategy. The strategy uses the ATM call options and ATM put options to synthesize the futures and mistmatches the time when synthesizing the future in order to gain the profit from the opposite movement of the market. For example, when we are longing calls and the market goes down, we can short the put at a higher price.
 
 ### Features
-Automatic trading.
-Can customize the trading frequency.
-Trading time from 9:45 to 11:30 and from 13:00 to 14:45.
-Closing all position from 14:50 to 14:55.
+* Automatic trading.
+* Can customize the trading frequency.
+* Trading time from 9:45 to 11:30 and from 13:00 to 14:45.
+* Closing all position from 14:50 to 14:55.
 
 ## Requirements
 Using DolphinDB API to achieve everyday data.
@@ -36,8 +36,10 @@ backtest(underlying, start, end, x, m, init_money) - Backtesting for a time wind
 
 ## Changelog
 V0.0 Script
-<br>V0.1 The initial version.
-<br>V0.2
+
+V0.1 The initial version.
+
+V0.2
 
   V0.2.1
 
